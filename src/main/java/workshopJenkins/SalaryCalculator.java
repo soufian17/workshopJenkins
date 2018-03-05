@@ -21,6 +21,10 @@ public class SalaryCalculator {
 	public double getSalaryBonus() {
 		return salary * 0.1;
 	}
+	public void Test()
+	{
+		
+	}
 
 	public double getTotalSalary() {
 		return getSalary() + getInsuranceMoney() + getSalaryBonus();
